@@ -1,0 +1,26 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow" viewBox="0 0 19 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M2.133 2.133l13.867 13.867-13.867 13.867"></path>
+</symbol>
+<symbol id="icon-burger" viewBox="0 0 32 32">
+<path d="M4.8 24h22.4v3.2h-22.4v-3.2z"></path>
+<path d="M12.706 14.4h14.494v3.2h-14.494v-3.2z"></path>
+<path d="M10.071 4.8h17.129v3.2h-17.129v-3.2z"></path>
+</symbol>
+<symbol id="icon-light-theme" viewBox="0 0 32 32">
+<path d="M17.28 28.8h-2.559v-5.12h2.559v5.12z"></path>
+<path d="M11.475 22.336l-3.62 3.62-1.811-1.811 3.62-3.62 1.811 1.811z"></path>
+<path d="M25.956 24.145l-1.811 1.811-3.62-3.62 1.811-1.811 3.62 3.62z"></path>
+<path d="M16 9.6c3.535 0 6.4 2.865 6.4 6.4s-2.865 6.4-6.4 6.4c-3.535 0-6.4-2.865-6.4-6.4s2.865-6.4 6.4-6.4z"></path>
+<path d="M8.32 17.28h-5.12v-2.559h5.12v2.559z"></path>
+<path d="M28.8 17.28h-5.12v-2.559h5.12v2.559z"></path>
+<path d="M11.475 9.664l-1.811 1.811-3.62-3.62 1.811-1.811 3.62 3.62z"></path>
+<path d="M25.956 7.855l-3.62 3.62-1.811-1.811 3.62-3.62 1.811 1.811z"></path>
+<path d="M17.28 8.32h-2.559v-5.12h2.559v5.12z"></path>
+</symbol>
+<symbol id="icon-dark-theme" viewBox="0 0 32 32">
+<path d="M15.639 3.2c-0.652 1.524-1.011 3.198-1.011 4.955 0 7.069 5.832 12.8 13.027 12.8 0.197 0 0.393-0.007 0.588-0.016-1.971 4.609-6.607 7.847-12.014 7.847-7.195 0-13.028-5.731-13.028-12.8 0-6.875 5.517-12.483 12.439-12.786z"></path>
+</symbol>
+</defs>
+</svg>

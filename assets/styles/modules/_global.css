@@ -1,0 +1,121 @@
+:root {
+  /* fonts */
+  --main-font: 'raleway';
+  --font-size: 16px;
+  --line-height: 1.625;
+
+  /* colors */
+  --color-accent: #ab8b80;
+  --color-active-text: #e7e8ed;
+  --color-inactive-text: #7a7b7f;
+  --color-bg: #1e1f24;
+  --color-bg-accent: #28292e;
+  --white: #fff;
+  --black: #000;
+
+  /* settings */
+  --padding: 50px;
+  --container: 1180px;
+  --body-bg: #f3f3f3;
+  --anime: 0.5s, ease;
+
+  /* body */
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--body-bg);
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:active,
+:focus {
+  outline-color: var(--main-color);
+}
+
+html,
+body {
+  min-width: 320px;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+button {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.wrapper > main {
+  flex: 1 1 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: calc(100% - (var(--padding) * 2));
+  max-width: var(--container);
+
+  border: 3px solid orange;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

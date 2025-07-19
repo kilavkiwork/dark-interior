@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Dark Interior</title>
+
+    <!-- Опис сторінки, автор -->
+    <meta
+      name="description"
+      content="Короткий, привабливий опис вмісту сторінки для пошукових систем."
+    />
+    <meta
+      name="keywords"
+      content="ключове слово-1, ключове слово-2, ключове слово-3 ..."
+    />
+    <meta
+      name="author"
+      content="kilavki"
+    />
+    <link
+      rel="canonical"
+      href="#"
+    />
+
+    <!-- Підключення графіки для соц.мереж -->
+    <meta
+      property="og:title"
+      content="Заголовок вашої сторінки для соцмереж"
+    />
+    <meta
+      property="og:description"
+      content="Опис для поширення в соцмережах"
+    />
+    <meta
+      property="og:image"
+      content="URL до зображення"
+    />
+    <meta
+      property="og:url"
+      content="URL вашої сторінки"
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <!-- Twitter -->
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
+    <meta
+      name="twitter:title"
+      content="Заголовок для Twitter"
+    />
+    <meta
+      name="twitter:description"
+      content="Опис для Twitter"
+    />
+    <meta
+      name="twitter:image"
+      content="URL до зображення"
+    />
+
+    <!-- Підключення іконки сайту -->
+    <link
+      rel="icon"
+      href="./assets/images/favicon/favicon.svg"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./assets/images/favicon/favicon.png"
+    />
+
+    <!-- Підключення стилів -->
+    <link
+      rel="stylesheet"
+      href="./assets/styles/styles.css"
+    />
+
+    <!-- Бібліотека частинок -->
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- питання по макету // TODO * ! ?
+
+   -->
+
+  <body>
+    <!-- icons -->
+    <svg
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="./assets/icons/global.icons.partials.html"
+    ></svg>
+    <!-- /.icons -->
+    <div class="wrapper">
+      <header class="header"></header>
+      <main class="main">
+        <div class="container">
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script
+      type="module"
+      src="./scripts/main.js"
+    ></script>
+  </body>
+</html>
