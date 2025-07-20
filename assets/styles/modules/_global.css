@@ -18,81 +18,30 @@
   --container: 1180px;
   --body-bg: #f3f3f3;
   --anime: 0.5s, ease;
-
-  /* body */
-  font-family: var(--main-font);
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  font-style: normal;
-  font-weight: 400;
-  color: var(--black);
-  background-color: var(--body-bg);
-  scroll-behavior: smooth;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
+/* Стилі для body */
+body {
+  position: relative;
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--line-height);
+  color: var(--black);
+  background-color: var(--color-bg);
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+::placeholder {
+  color: #777;
 }
 
 :active,
 :focus {
-  outline-color: var(--main-color);
-}
-
-html,
-body {
-  min-width: 320px;
-  height: 100%;
-}
-
-body {
-  position: relative;
-  scroll-behavior: smooth;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-ul > li {
-  list-style-type: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-button {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  color: inherit;
-  background-color: transparent;
-  border: inherit;
+  outline-color: var(--color-accent);
 }
 
 .wrapper {
@@ -109,7 +58,7 @@ button {
   margin: 0 auto;
   width: calc(100% - (var(--padding) * 2));
   max-width: var(--container);
-
+  /* del */
   border: 3px solid orange;
 }
 
